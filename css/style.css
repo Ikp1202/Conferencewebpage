@@ -1,0 +1,1862 @@
+body{
+  color: #6e6e6e;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+@font-face {
+     font-family: 'Open Sans', sans-serif;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Open Sans', sans-serif;
+}
+/*======================================================
+           COMMAN CLASS
+  ======================================================*/
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+li {
+  padding: 0px;
+}
+p{
+  margin: 0px;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a:focus,
+a:hover {
+  color: #231f20;
+  text-decoration: none;
+}
+
+.text-upp{
+    text-transform: uppercase;
+}
+/*----------------------FONT COLOR CLASSES-------------------------*/
+
+.whiteclr{
+  color: #fff !important;
+}
+.blackclr{
+  color: #000 !important;
+}
+.mauto{
+    margin: 0 auto;
+}
+
+/*==========       BASIC CLASSES     ==========*/
+
+/* ========================================= */
+/* =============SPACE CLASSES============== */
+/* ========================================= */
+.space5{
+  margin-top: 5px;
+}
+.space10{
+  margin-top: 10px;
+}
+.space15{
+  margin-top: 15px;
+}
+.space20{
+  margin-top: 20px;
+}
+.space25{
+  margin-top: 25px;
+}
+.space30{
+  margin-top: 30px;
+}
+.space40{
+  margin-top: 40px;
+}
+.space50{
+  margin-top: 50px !important;
+}
+.space60{
+  margin-top: 60px;
+}
+.space70{
+  margin-top: 70px;
+}
+.space80{
+  margin-top: 80px;
+}
+.space100{
+  margin-top: 100px;
+}
+
+/* ========================================= */
+/* =============PADDING CLASSES============== */
+/* ========================================= */
+.pad0{
+  padding: 0 !important;
+}
+.padleft0{
+  padding-left: 0px !important;
+}
+.padright0{
+  padding-right: 0px !important;
+}
+.padtop0{
+  padding-top: 0px !important;    
+}
+.padbottom0{
+  padding-bottom: 0px !important;   
+}
+.padding10{
+  padding: 10px !important;
+}
+.padding15{
+  padding: 15px;
+}
+.padding20{
+  padding: 20px !important;
+}
+.padding25{
+  padding: 25px;
+}
+.padding30{
+  padding: 30px !important;
+}
+.padding50{
+  padding: 50px;
+}
+.padbtm100{
+  padding-bottom: 100px;
+}
+.padbtm80{
+  padding-bottom: 80px;
+}
+.padbtm50{
+  padding-bottom: 50px !important;
+}
+.padbtm20{
+  padding-bottom: 20px !important;
+}
+.padleft25{
+  padding-left: 25px !important;
+}
+
+/* ========================================= */
+/* =============MARGIN CLASSES============== */
+/* ========================================= */
+.m0{
+  margin: 0;
+}
+.mbtm0{
+  margin-bottom: 0px;
+}
+.mtop0{
+  margin-top:0px;
+}
+.mtop10{
+  margin-top:10px;
+}
+.mbtm10{
+  margin-bottom:10px;
+}
+.mleft20{
+  margin-left:20px;
+}
+.mleft40{
+  margin-left:40px;
+}
+.mleft60{
+  margin-left:60px;
+}
+.mright10{
+  margin-right:10px;
+}
+.mauto img{
+  margin: 0px auto !important;
+  width: 100%  !important;
+}
+
+.mautomargin{
+  margin: 0px auto !important;
+}
+
+
+/* ========================================= */
+/* =============FONT SIZE CLASSES============== */
+/* ========================================= */
+.fsize8{
+  font-size: 8px !important;
+}
+.fsize10{
+  font-size: 10px !important;
+}
+.fsize12{
+  font-size: 12px !important;
+}
+.fsize13{
+  font-size: 13px;
+}
+.fsize14{
+  font-size: 14px !important;
+}
+.fsize16{
+  font-size: 16px !important;
+}
+.fsize18{
+  font-size: 18px !important;
+}
+.fsize20
+{
+  font-size: 20px !important;
+}
+.fsize22{
+  font-size: 22px !important;
+}
+.fsize24{
+  font-size: 24px !important;
+}
+.fsize26{
+  font-size: 26px;
+}
+.fsize28{
+  font-size: 28px;
+}
+.fsize30{
+  font-size: 30px !important;
+}
+.fsize36{
+  font-size: 36px !important;
+}
+.fsize40{
+  font-size: 40px !important;
+}
+.fsize50{
+  font-size: 50px !important;
+}
+.fsize60{
+  font-size: 60px !important;
+}
+.fsize70{
+  font-size: 70px !important;
+}
+.fsize80{
+  font-size: 80px;
+}
+.fsize90{
+  font-size: 90px;
+}
+.fsize100{
+  font-size: 100px !important;
+}
+
+/* ========================================= */
+/* =============FONT WEIGHT CLASSES============== */
+/* ========================================= */
+.f100{
+  font-weight: 100;
+}
+
+.f200{
+  font-weight: 200;
+}
+.f300{
+  font-weight: 300;
+}
+.f400{
+  font-weight: 400;
+}
+.f500{
+  font-weight: 500;
+}
+.f600{
+  font-weight: 600;
+}
+.f700{
+  font-weight: 700;
+}
+.f800{
+  font-weight: 800;
+}
+
+input{
+	outline: none !important;
+}
+button{
+	outline: none !important;
+}
+
+/*==========================================================================*/
+
+/*::-webkit-scrollbar {
+  display: none;
+}*/
+
+
+
+
+/*========================Start Css=========================================*/
+.title{
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+}
+header{
+  position: absolute;
+  width: 100%;
+
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    background-color: white;
+    height: 2px;
+    border-radius: 1px;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: black;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.fr_pic
+{
+    padding-left: 26px;
+}
+.clrff6666{
+  color: #ff6666 !important;
+}
+.navbar {
+    margin-bottom: 0;
+    z-index: 9999;
+    border: 0;
+    position: absolute;
+    width: 100%;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    background-color: transparent;
+ 
+}
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+} 
+.navbar-default {
+    /* background-color: #f8f8f8; */
+    border-color: #e7e7e7;
+    margin-bottom: -51px;
+    z-index: 9;
+}
+
+header ul li a
+{
+     font-family: 'Open Sans', sans-serif;
+     font-size: 15px;
+}
+
+.dropdown-menu >li> a {
+    font-weight: 400!important;
+    font-size: 14px !important;
+    letter-spacing: 2px;
+}
+.dropdown-menu >li> a:hover {
+
+background-color: #0099cc;
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right: -15px;
+    margin-top: 20px;
+}
+
+header .btn2 {
+    /* position: absolute; */
+    /* right: 0; */
+    /* top: 0; */
+    color: black;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#global
+{
+    background: rgba(255,255,255,0.5) url(../img/man.png) ;
+    background-size: cover;
+    position: relative;
+    padding: 300px 0px;
+    background-position: center center;
+
+}
+#global h1
+{ 
+  font-weight: 700;
+
+     color: black;
+    font-size: 40px; 
+}
+#global span {
+    color: #336699;
+    font-size: 21px;
+    font-weight: 600;
+
+}
+#global h5
+{
+     font-size: 18px;
+font-weight: 700;
+     color: black;
+     padding-top: 77px;
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    width: 400px;
+    border-collapse: separate;
+}
+.btn_sign{
+  
+    width: 91px;
+    background-color: #ff9900;
+    color: white;
+    text-transform: uppercase;
+}
+.btn_user
+{
+    
+}
+.text
+{
+   color: yellowgreen;
+
+}
+
+#global h6
+{
+  font-size: 12px;
+  color: #0099cc;
+}
+
+
+
+
+
+
+
+#phone {
+    padding: 140px 0px;
+}
+#phone h2
+{
+  font-size: 
+  font-weight:400;
+  color: black;
+  font-size: 30px;
+}
+
+#phone ul li {
+    font-size: 15px;
+    color: black;
+    padding-top: 15px;
+    font-weight: 400;
+}
+#phone .btn_call {
+    background-color: #ff9900;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    width: 218px;
+    height: 52px;
+    padding-left: 38px;
+}
+#phone .call_pic {
+    position: absolute;
+    left: 8px;
+}
+
+#phone .phone_pic
+{
+    margin-top: -44px;
+}
+
+
+
+
+
+#map
+{
+  padding: 8px 0px;
+}
+#map h2
+{
+  font-weight: 400;
+  font-size: 30px;
+  color: black;
+}
+
+
+#map li {
+   
+    padding-top: 20px;
+}
+
+#map .fa
+{    padding-right: 7px;}
+
+
+
+#map h5
+{
+  font-weight: 400;
+  font-size: 18px;
+  color: #0099cc;
+}
+
+#map .full_list
+{
+    background-color: #ff9900;
+    color: white;
+    height: 60px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    width: 218px;
+    padding-left: 56px;
+}
+#map .grid_pic {
+    position: absolute;
+    left: 11px;
+    top: 24%;
+}
+
+
+#map .download
+{
+    height: 60px;
+    background-color: #ff9900;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    text-align: left;
+    width: 218px;
+    padding-left: 56px;
+}
+#map .down
+{
+   position: absolute;
+    left: 11px;
+    top: 24%;
+}
+
+
+#lappy {
+    padding: 101px 0px;
+}
+#lappy h2
+{
+  font-weight: 400;
+  font-size: 30px;
+  color: black;
+}
+
+
+#lappy li {
+   
+    padding-top: 20px;
+}
+
+#lappy .fa
+{    padding-right: 7px;}
+
+
+
+#lappy h5
+{
+  font-weight: 400;
+  font-size: 18px;
+  color: #0099cc;
+}
+
+
+#lappy .create
+{
+    background-color: #ff9900;
+    color: white;
+    height: 60px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    width: 218px;
+    padding-left: 56px;
+}
+#lappy .accout {
+    position: absolute;
+    left: 11px;
+    top: 24%;
+}
+
+
+#lappy .access
+{
+    height: 60px;
+    background-color: #ff9900;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    text-align: left;
+    width: 218px;
+    padding-left: 56px;
+}
+
+#lappy .lappy_pic
+{
+position: absolute;
+}
+
+
+
+
+
+#calling
+{  background: #ddd;
+padding: 50px 0px;
+}
+
+#calling h2
+{
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+}
+
+
+#calling h5
+{
+  text-align: center;
+  font-size: 600;
+  font-size: 16px;
+  color: black;
+}
+
+#calling p
+{
+  text-align: center;
+  font-weight: 400;
+}
+
+
+#calling .conf
+{padding: 35px 40px;}
+
+
+
+#calling .create
+{
+    background-color: #ff9900;
+    color: white;
+    height: 60px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    width: 218px;
+    padding-left: 56px;
+    margin-left: -57px;
+    }
+
+#calling .accout {
+    position: absolute;
+    left: 11px;
+    top: 24%;
+}
+
+
+#calling .access
+{
+    height: 60px;
+    background-color: #ff9900;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    text-align: left;
+    width: 218px;
+     margin-left: 31px;
+
+    padding-left: 56px;
+}
+
+#calling .lappy_pic
+{
+position: absolute;
+}
+
+
+
+
+
+#potter
+{
+  padding: 60px 0px;
+    background:  url(../img/potter.png);
+}
+
+#potter h2
+{
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+#potter li {
+    padding: 11px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#potter .fa
+{
+  padding-right: 10px;
+}
+
+
+
+#potter .create
+{
+    background-color: #ff9900;
+    color: white;
+    height: 60px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    width: 218px;
+    padding-left: 56px;
+    margin-left: -57px;
+    }
+
+#potter .accout {
+    position: absolute;
+    left: 11px;
+    top: 24%;
+}
+
+
+#potter .access
+{
+    height: 60px;
+    background-color: #ff9900;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    text-align: left;
+    width: 218px;
+     margin-left: 31px;
+
+    padding-left: 56px;
+}
+
+#potter .lappy_pic
+{
+position: absolute;
+}
+
+
+
+#potter .see
+{
+
+color: #ff9900;
+font-size: 14px;
+text-decoration: underline;
+}
+
+
+
+
+#girl
+{
+  padding: 140px 0px;
+  background:  url(../img/girl.png);
+  background-size: cover;
+
+}
+#girl h2
+{
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+}
+
+#girl li {
+    padding: 11px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+#girl .fa
+{
+  padding-right: 10px;
+}
+
+
+
+#girl .create
+{
+    background-color: #ff9900;
+    color: white;
+    height: 60px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    width: 218px;
+    padding-left: 56px;
+
+    }
+
+#girl .accout {
+    position: absolute;
+    left: 11px;
+    top: 24%;
+}
+
+
+#girl .access
+{
+    height: 60px;
+    background-color: #ff9900;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    text-align: left;
+    width: 218px;
+     margin-left: 31px;
+
+    padding-left: 56px;
+}
+
+
+
+
+#cartoon
+{  background: #ddd;
+padding: 50px 0px;
+}
+
+#cartoon h2
+{
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+}
+
+
+#cartoon h5
+{
+  text-align: center;
+  font-size: 600;
+  font-size: 13px;
+  color: black;
+}
+
+#cartoon h6
+{
+  text-align: center;
+  font-weight: 400;
+  color: #0099cc;
+  font-size:18px;
+}
+
+
+#cartoon .conf
+{padding: 35px 40px;}
+
+
+
+#cartoon a
+{
+    color: #0099cc;
+}
+
+
+
+
+
+
+#client 
+{
+padding: 50px 0px;
+}
+#client h2
+{
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+
+
+.cilent_div
+{
+padding: 20px 0px;
+}
+
+#client h4
+{
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 23px;
+}
+
+#client h3
+{
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #0099cc;
+}
+
+#client ul li
+{
+    padding: 10px 59px;
+}
+
+
+
+#blog
+{    
+  background: #ddd;
+  padding: 50px 0px;
+}
+#blog h2
+{
+  text-align: center;
+  font-weight: 400;
+  font-size: 35px;
+  color: black;
+}
+
+#blog h3
+{    padding: 0px 14px;
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+#blog .wish
+{
+  background-color: white;
+}
+
+
+#blog p
+{    padding: 12px 19px;
+  font-weight: 400;
+  font-size: 15px;
+
+    line-height: 26px;
+}
+
+#blog a
+{
+  color: #0099cc;
+  font-size: 16px;
+  padding-left: 10px;
+  font-weight: 400;
+}
+
+#blog h6
+{
+  float: right;
+  font-weight: 400;
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+
+
+
+#app
+{
+padding: 30px 0px;
+}
+#app h2
+{
+  color: black;
+  font-size: 35px;
+  font-weight: 400;
+  float: left;
+
+}
+#app .btn_coming
+{
+  color: #0099cc;
+  background-color: white;
+  border-color: #0099cc;
+  border-radius: 5px;
+  float: right;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+#blue_back
+{ background: rgba(255,255,255,0.5) url(../img/blue.png);
+  padding: 30px 0px;
+}
+
+#blue_back h2
+{
+  color: white;
+  text-align: center;
+  font-size: 31px;
+  font-weight:300;
+      line-height: 33px;
+      margin-bottom: 30px;
+
+}
+
+#blue_back  .input-group {
+    position: relative;
+    display: table;
+    width: 400px;
+    margin: 0 auto;
+
+}
+#blue_back p
+{
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+
+
+
+footer 
+{
+padding: 30px 0px;
+}
+
+footer .my
+{
+
+}
+footer .log
+{
+  margin-top: 15px;
+}
+footer p {
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 21px;
+}
+
+
+footer .btn_acc
+{
+      background-color: #ff9900;
+    color: white;
+    height: 47px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    width: 177px;
+    text-align: center;
+   
+}
+
+footer h4
+{
+color: black;
+padding-top:21px;
+}
+
+footer ul li a
+{
+  padding: 0px;
+  font-size: 14px;
+}
+footer li
+{
+  padding:0;
+}
+
+
+footer .fa
+{
+      padding-right: 10px;
+}
+
+
+footer .pad
+{
+  padding-left: 122px;
+}
+
+footer h6
+{
+  color: black;
+  font-size: 14px;
+  padding-top: 30px;
+}
+footer .term
+{
+  float: right;
+}
+
+.scroll {
+
+}
+#lappy p {
+    padding-left: 24px;
+    margin-top: -17px;
+}
+
+#map p
+{
+  padding-left: 24px;
+    margin-top: -25px;
+}
+
+#phone p {
+    padding-left: 24px;
+    margin-top: -19px;
+}
+#phone p.dial
+{
+
+}
+
+
+
+.scroll {
+    position: absolute;
+    right: 50%;
+    /* bottom: 2%; */
+    /* top: 126%; */
+    width: 25px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====================================================*/
+
+
+
+
+@media(max-width: 1024px){
+  
+}
+
+@media(max-width: 991px){
+
+#global h1 {
+    font-weight: 700;
+    color: black;
+    font-size: 29px;
+}
+#global {
+    background: rgba(255,255,255,0.5) url(../img/man.png);
+    background-size: cover;
+    position: relative;
+    padding: 140px 0px;
+    background-position: center center;
+}
+
+.navbar-brand > img {
+    display: block;
+    width: 200px;
+}
+.navbar-right {
+    float: right !important;
+    margin-right: -15px;
+    margin-top: -55px;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+    font-size: 13px;
+    padding: 22px 6px;
+}
+#phone {
+    padding: 64px 0px;
+}
+
+#phone h2 {
+    font-size: font-weight:400;
+    color: black;
+    font-size: 24px;
+}
+
+#phone .phone_pic {
+    margin-top: 10px;
+}
+footer .pad {
+    padding-left: 39px;
+}
+
+#cartoon {
+    background: #ddd;
+    padding: 18px 0px;
+}
+
+#cartoon h5 {
+    text-align: center;
+    font-size: 600;
+    font-size: 16px;
+    color: black;
+}
+
+#girl .access {
+    height: 60px;
+    background-color: #ff9900;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    text-align: left;
+    width: 218px;
+    margin-left: 0px;
+    padding-left: 54px;
+}
+
+#calling .create {
+    background-color: #ff9900;
+    color: white;
+    height: 60px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    width: 218px;
+    padding-left: 56px;
+    margin-left: 121px;
+}
+
+#calling .conf {
+    padding: 31px 9px;
+}
+
+#calling h5 {
+    text-align: center;
+    font-size: 600;
+    font-size: 16px;
+    color: black;
+    line-height: 21px;
+    padding-top: 20px;
+}
+
+#potter .create {
+    background-color: #ff9900;
+    color: white;
+    height: 60px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    width: 218px;
+    padding-left: 56px;
+    margin-left: 29px;
+}
+
+header .btn2 {
+    position: absolute;
+    right: -19px;
+    top: 39px;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+#blog p {
+    padding: 12px 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+#blog h6 {
+    float: left;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 9px;
+}
+#blog {
+    background: #ddd;
+    padding: 15px 0px;
+}
+#blog h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+    color: black;
+    margin-bottom: 28px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media(max-width: 767px){
+
+.input-group {
+    position: relative;
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+}
+.input-group {
+    position: relative;
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+}
+#global h1 {
+    font-weight: 700;
+    color: black;
+    font-size: 22px;
+}
+
+#global span {
+    color: #336699;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#phone h2 {
+    font-size: font-weight:400;
+    color: black;
+    font-size: 20px;
+}
+
+#phone {
+    padding: 23px 0px;
+}
+#phone ul li {
+    font-size: 13px;
+    color: black;
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+#phone .btn_call {
+    background-color: #ff9900;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    width: 218px;
+    height: 53px;
+    padding-top: 18px;
+    padding-left: 38px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#phone .call_pic {
+    position: absolute;
+    left: 8px;
+    top: 13%;
+}
+
+
+#global {
+    background: rgba(255,255,255,0.5) url(../img/man.png);
+    background-size: cover;
+    position: relative;
+    padding: 109px 0px;
+    background-position: center center;
+}
+
+
+
+#map .full_list {
+    background-color: #ff9900;
+    color: white;
+    height: 60px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    width: 218px;
+    padding-left: 56px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#map .download {
+    height: 60px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ff9900;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    text-align: left;
+    width: 218px;
+    padding-left: 56px;
+}
+#map h5 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #0099cc;
+    text-align: center;
+}
+
+#lappy .create {
+    background-color: #ff9900;
+    color: white;
+    height: 60px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    width: 218px;
+    padding-left: 56px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#lappy .access {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    background-color: #ff9900;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    text-align: left;
+    width: 218px;
+    padding-left: 56px;
+}
+
+
+#lappy h5 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #0099cc;
+    text-align: center;
+}
+
+
+
+#lappy .lappy_pic {
+  display: none;
+}
+#calling .create {
+    background-color: #ff9900;
+    color: white;
+    height: 60px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    width: 218px;
+    padding-left: 56px;
+    /* margin-left: -57px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#calling .access {
+    height: 60px;
+    background-color: #ff9900;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    text-align: left;
+    width: 218px;
+    display: block;
+    /* margin-left: 31px; */
+    padding-left: 56px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#potter .create {
+    background-color: #ff9900;
+    color: white;
+    height: 60px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    width: 218px;
+    padding-left: 56px;
+    /* margin-left: -57px; */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#potter .access {
+    height: 60px;
+    background-color: #ff9900;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    text-align: left;
+    width: 218px;
+    /* margin-left: 31px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 51px;
+    padding-right: 9px;
+}
+
+
+#girl .create {
+    background-color: #ff9900;
+    color: white;
+    height: 60px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    width: 218px;
+    padding-left: 56px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#girl .access {
+    height: 60px;
+    background-color: #ff9900;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    text-align: left;
+    width: 218px;
+    /* margin-left: 31px; */
+    padding-left: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#girl li {
+    padding: 11px;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#client ul li {
+    padding: 16px 116px;
+}
+#client {
+    padding: 23px 0px;
+}
+
+#client h2 {
+    font-size: 26px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+}
+#cartoon h2 {
+    font-size: 26px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+
+}
+#blue_back .input-group {
+    position: relative;
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+}
+footer .pad {
+    padding-left: 15px;
+}
+footer .term {
+    float: left;
+}
+
+
+footer .btn_acc {
+    background-color: #ff9900;
+    color: white;
+    height: 47px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    width: 177px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#blue_back h2 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 33px;
+    margin-bottom: 30px;
+}
+
+#app h2 {
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    float: left;
+}
+
+
+header .btn2 {
+    position: absolute;
+    right: -6px;
+    top: 39px;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+
+#map {
+    padding: 75px 0px;
+}
+#potter li {
+    padding: 9px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#potter {
+    padding: 21px 0px;
+    background: url(../img/potter.png);
+}
+#potter h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 25px;
+}
+#potter .see {
+    color: #ff9900;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+#girl {
+    padding: 33px 0px;
+    background: url(../img/girl.png);
+    background-size: cover;
+}
+.navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: #333;
+        margin-top: 28px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+    color: wheat;
+    font-size: 13px;
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right: 0px;
+    margin-top: 0px;
+    width: 100%;
+}
+
+
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: whitesmoke;
+}
+#lappy h2 {
+    font-weight: 400;
+    font-size: 21px;
+    color: black;
+}
+
+#calling h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+
+#girl h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+}
+
+#blog h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 28px;
+}
+
+#map h2 {
+    font-weight: 400;
+    font-size: 23px;
+    color: black;
+}
+
+#map li {
+    padding-top: 19px;
+    font-size: 14px;
+}
+
+#phone .phone_pic {
+    margin-top: 37px;
+    width: 241px;
+}
+
+#lappy {
+    padding: 37px 0px;
+}
+
+
+
+
+}
